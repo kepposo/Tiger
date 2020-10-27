@@ -28,8 +28,8 @@ class _State extends State<HomeScreen> {
               child: new Text('Register')
               ),  
               new RaisedButton(
-              onPressed: () => Navigator.pushNamed(context, '/Alert' ), //by khalid maddah
-              child: new Text('Alert')
+              onPressed: () => Navigator.pushNamed(context, '/Alerts' ), //by khalid maddah
+              child: new Text('Alerts')
               ),
             
 

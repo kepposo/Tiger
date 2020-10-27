@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
+class Alerts extends StatefulWidget {
   @override
-  Alert createState() => Alert();
+  AlertState createState() => AlertState();
 }
 
 
-class Alert extends State<HomeScreen> {
+class AlertState extends State<Alerts> {
   int _counter = 0;
 
   void _incrementCounter() {
@@ -105,12 +105,6 @@ void _showBottomSheet()
       );
     });
 }
-
-
-
-
-
-
 
 
   Widget build(BuildContext context) 
